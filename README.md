@@ -35,11 +35,20 @@ Our method produces more consistent, scene-aware, and drivable trajectories (red
 ### 2. Vision-Language Guidance (Ablation Example)
 
 <p align="center">
-  <img src="assets/vlm_guidance.png" width="700">
+  <img src="assets/vlm.png" width="700">
 </p>
 
 **Figure:** Examples illustrating the effect of VLM semantic priors (e.g., “turn left”, “follow the lane”, “slow down”).  
 Semantic cues enforce stronger intent consistency and reduce ambiguous planning behaviors.
+
+### 3. Interaction-Aware Conflict Handling (DIFM)
+
+<p align="center">
+  <img src="assets/conflict_detection.png" width="700">
+</p>
+
+**Figure:** Our DIFM module resolves conflicts between semantic direction (`f_dir`) and interaction fields (`f_interact`), improving safety around dynamic agents.
+
 
 # 🔒 Code Availability
 
