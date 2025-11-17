@@ -65,8 +65,8 @@ Semantic cues enforce stronger intent consistency and reduce ambiguous planning 
 | Hydra-NeXt | Camera & Lidar | ResNet-34 | 98.1 | 97.7 | 94.6 | 100 | 81.8 | 88.6 |
 | Hydra-MDP | Camera & Lidar | ResNet-34 | 98.3 | 96.0 | 94.6 | 100 | 78.7 | 86.5 |
 | DiffusionDrive | Camera & Lidar | ResNet-34 | 98.2 | 96.2 | 94.7 | 100 | 82.2 | 88.1 |
-| GoalFlow | Camera & Lidar | ResNet-34 | 98.4 | 98.3 | 94.6 | 100 | 85.0 | 90.3 |
-| Ours | Camera & Lidar | ResNet-34 | 99.3 | 96.4 | 96.5 | 100 | 84.5 | 90.4 |
+| GoalFlow | Camera & Lidar | ResNet-34 | 98.4 | **98.3** | 94.6 | 100 | **85.0** | 90.3 |
+| Ours | Camera & Lidar | ResNet-34 | **99.3** | 96.4 | **96.5** | **100** | 84.5 | **90.4** |
 
 Quantitative comparison of our method against representative baselines on the Nav-test benchmark. Our method achieves state-of-the-art performance across key metrics, demonstrating superior planning quality, safety, and task completion efficiency.
 
